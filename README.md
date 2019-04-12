@@ -5,7 +5,9 @@
 
 Example app showing the easiest way to get started with visual testing and [Percy](https://percy.io/).
 
-Uses the demo [TodoMVC](https://github.com/tastejs/todomvc) app and takes snapshots of the app while interacting with it.
+See the [PercyScript documentation](https://docs.percy.io/docs/percyscript) for more info.
+
+This app uses the demo [TodoMVC](https://github.com/tastejs/todomvc) app and takes snapshots of it while interacting with the todos.
 
 To install dependencies, compile and run the Todo app:
 
