@@ -1,7 +1,7 @@
 # example-percyscript
 
 [![CircleCI](https://circleci.com/gh/percy/example-percyscript.svg?style=svg)](https://circleci.com/gh/percy/example-percyscript)
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
+[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/percy/example-percyscript)
 
 Example app showing the easiest way to get started with visual testing and [Percy](https://percy.io/).
 
