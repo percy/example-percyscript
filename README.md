@@ -18,7 +18,7 @@ $ open index.html
 
 To run the PercyScript:
 ```bash
-$ npm test
+$ npm run snapshots
 ```
 
 See `snapshots.js` file for the example script.
