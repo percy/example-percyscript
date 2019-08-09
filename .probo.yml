@@ -1,0 +1,10 @@
+image: proboci/ubuntu-16.04-lamp:php-7.2
+assets:
+  - .ENV
+steps:
+  - name: Install todomvc, percy, and dependencies.
+    plugin: Script
+    script: |
+    source /assets/.ENV > /dev/null 2>&1
+    cd $SRC_DIR
+    npm install
