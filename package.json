@@ -2,9 +2,7 @@
   "private": true,
   "scripts": {
     "start": "http-server -s -p 8000",
-    "presnapshots": "http-server -s -p 8000 &",
-    "snapshots": "percy exec -- node snapshots.js",
-    "postsnapshots": "pkill -f 'http-server -s -p 8000'"
+    "snapshots": "percy exec -- node snapshots.js"
   },
   "dependencies": {
     "todomvc-app-css": "^2.2.0",
