@@ -11,6 +11,6 @@ jobs:
       - name: Percy Test
         uses: percy/exec-action@master
         with:
-          command: "node snapshot.js"
+          command: "node snapshots.js"
         env:
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
